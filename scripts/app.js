@@ -1,13 +1,10 @@
-'use strict';
+import React from 'react'
+import ImageUploader from './imageuploader'
 
-var React = require('react');
-
-var App = React.createClass({
+const App = React.createClass({
   render() {
-    return (
-      <h1>Hello, world.</h1>
-    );
+    return <ImageUploader id="img-upload" />
   }
-});
+})
 
-module.exports = App;
+module.exports = App
